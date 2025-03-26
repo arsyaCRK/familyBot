@@ -135,8 +135,7 @@ func sendStartMenu(bot *tgbotapi.BotAPI, chatID int64) {
 	}
 }
 
-//Клавиатура начиления баллов
-
+// Клавиатура начиления баллов
 func kbdSectionsPlus(bot *tgbotapi.BotAPI, chatID int64) {
 	msg := tgbotapi.NewMessage(chatID, "Выберите, сколько начислить баллов и за что: ")
 
